@@ -1,0 +1,230 @@
+body {
+  align-items: center;
+  font-family: "ubuntu";
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: 'ubuntu';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 1% 1%;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-top: 70px;
+  font-family: "Ubuntu";
+  color: #fff;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+h1:hover {
+ color: #222831;
+
+}
+
+h3 {
+  color: #ee4266;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 2em;
+  color: #204051;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+.jumbotron-fluid {
+  background-image: url("https://s1.1zoom.me/big0/238/376386-blackangel.jpg");
+  background-size: cover;
+  padding-bottom: 500px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.section-heading {
+  color: #fff0f5;
+  color:#ee4266;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.quote-img {
+  text-align: center;
+  width: 100%;
+  height: 450px;
+/*  height: 100%;*/
+}
+
+.features {
+  background-color: #222831;
+  padding: 7% 15%;
+}
+.feature-line{
+  color:#97e5ef;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #f4f9f4;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #b4f2e1;
+}
+
+.mySlides {
+  width: 100%;
+}
+
+#testimonials {
+  background-color: #fc7f7f;
+  text-align: center;
+}
+
+#press {
+  background-color: #fc7f7f;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test-pic {
+  width: 20%;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.quote {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+}
+
+.carousel-heading {
+  color: #fff;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 60px;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.pricing-heading {
+  color: #ee4266;
+}
+
+.pricing-column {
+  padding: 7% 2%;
+}
+
+#cta {
+  width: 100%;
+  padding: 7% 10%;
+  background-color: #222831;
+  text-align: center;
+}
+
+.cta-heading {
+  color: ##ee4266;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 2em;
+}
+
+.cta-heading:hover {
+  color: #fff0f5;
+}
+
+#footer {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.title-button{
+  color:dark;
+}
+.btn-info {
+ border-color:#05dfd7;
+ background-color: #05dfd7;
+}
+
+@media (max-width:900px) {
+  h2{
+    font-size: 2rem;
+  }
+  .mySlides{
+    z-index: 1;
+  }
+  .quote-img{
+  z-index: -1;
+  }
+
+/*
+  .quote-img{
+    height: 80%;
+    z-index: -1;
+  }*/
+
+  .section-heading{
+    font-size: 2rem;
+  }
+  .feature-icon{
+    width: 50%;
+  }
+  .test-pic {
+    width: 50%;
+  }
+
+  .cta-heading {
+    font-size: 1.5rem;
+  }
+  .testimonials{
+    padding-bottom: 30%;
+  }
+
+  .press-logo {
+    width: 30%;
+  }
+
+  .jumbotron-fluid {
+    width: 100%;
+    height: auto;
+    padding-bottom: 500px;
+  }
+}
